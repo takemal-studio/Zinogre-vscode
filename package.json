@@ -1,0 +1,22 @@
+{
+    "name": "zinogre_color_theme",
+    "displayName": "Zinogre",
+    "description": "Zinogre color theme for VS Code",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.34.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [ {
+            "label": "Zinogre",
+            "uiTheme": "vs-dark",
+            "path": "./themes/zinogre-color-theme.json"
+        } ]
+    },
+    "author": {
+        "name": "takemal-studio"
+    }
+}
