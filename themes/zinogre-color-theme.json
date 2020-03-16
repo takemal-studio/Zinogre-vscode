@@ -257,7 +257,7 @@
             }
         },
         {
-            "name": "JS variable parameter",
+            "name": "JS boolean  parameter",
             "scope": "constant.language.boolean.false.js, constant.language.boolean.true.js",
             "settings": {
                 "foreground": "#FFCC7B"
@@ -441,7 +441,7 @@
             "name": "Keyword.other",
             "scope": "keyword.other",
             "settings": {
-                "foreground": "#FFCC7B"
+                "foreground": "#00F5FB"
             }
         },
         {

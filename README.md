@@ -15,7 +15,14 @@ Zinogre color theme for [Visual Studio Code](https://code.visualstudio.com/).
 
 This repo contains VS Code theme file that make your VS Code editor Zinogre color theme.
 
-<img src="./img/zinogre.png" width="400"> <img src="./img/colormap.png" width="440">
+<div align="center">
+
+<img src="./img/zinogre.png" width="500">\
+</div>
+
+<div align="center">
+<img src="./img/colormap.png" width="600" position = "center">
+</div>
 
 ### Syntax highlighting in VS Code
 
@@ -23,23 +30,28 @@ This repo contains VS Code theme file that make your VS Code editor Zinogre colo
 
 ## Installation
 
-### Install using Command Palette
+### using Command Palette
 
-1. Go to View -> Command Palette or press Ctrl+Shift+P
-2. Then enter Install Extension
+1. Go to `View` -> `Command Palette` or press `Ctrl + Shift + P`
+2. Then enter `Install Extension`
 3. Type `Zinogre`
 4. Select it or press Enter to install
 
+### from [Visual Studio Code MarketPlace](https://marketplace.visualstudio.com/items?itemName=takemal-studio.zinogre)
+
 ### Activating theme
 
-- The Zinogre Syntax theme will be available from `File` -> `Preferences` -> `Color Theme dropdown menu`.
+- The Zinogre color theme will be available from `File` -> `Preferences` -> `Color Theme` dropdown menu.
 
 ## Recommended Setting
 
 ### Font
 
-The above sample codes' font is [JetBrains mono](https://www.jetbrains.com/lp/mono/). \
-You can download and add it into system font folder, then you can add this option in `setting.json` to have a custom font:
+The above sample codes' font is [JetBrains mono](https://www.jetbrains.com/lp/mono/).
+
+If You want, you can download and add it into system font folder.
+
+Then you can add this option in `setting.json` to have a custom font:
 
 ```json
 {
@@ -47,7 +59,7 @@ You can download and add it into system font folder, then you can add this optio
 }
 ```
 
-### Recommended Extension to use with Zinogre theme
+### Recommended Extensions to use with Zinogre theme
 
 - [Bracket Pair Colorizer 2](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2)
 
