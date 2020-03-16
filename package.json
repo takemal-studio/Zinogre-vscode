@@ -1,44 +1,44 @@
 {
     "name": "zinogre",
-    "displayName": "Zinogre Color Theme",
-    "description": "Zinogre color theme for VS Code",
-    "version": "0.1.2",
-    "engines": {
-        "vscode": "^1.34.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/takemal-studio/Zinogre-vscode.git"
-    },
     "bugs": {
         "url": "https://github.com/takemal-studio/Zinogre-vscode/issues"
     },
-    "contributes": {
-        "themes": [ {
-            "label": "Zinogre",
-            "uiTheme": "vs-dark",
-            "path": "./themes/zinogre-color-theme.json"
-        } ]
+    "icon": "img/zinogre_icon.png",
+    "author": {
+        "url": "https://github.com/takemal-studio",
+        "name": "takemal-studio",
+        "email": "takemal.studio@gmail.com"
     },
-    "galleryBanner": {
-        "color": "#2B3E50",
-        "theme": "dark"
+    "version": "0.1.5",
+    "engines": {
+        "vscode": "^1.34.0"
     },
+    "license": "SEE LICENSE IN LICENSE",
     "keywords": [
         "Zinogre",
         "dark",
         "theme",
         "color-theme"
     ],
-    "icon": "img/zinogre_icon.png",
     "publisher": "takemal-studio",
-    "author": {
-        "name": "takemal-studio",
-        "email": "takemal.studio@gmail.com",
-        "url": "https://github.com/takemal-studio"
+    "categories": [
+        "Themes"
+    ],
+    "repository": {
+        "url": "https://github.com/takemal-studio/Zinogre-vscode.git",
+        "type": "git"
     },
-    "license": "SEE LICENSE IN LICENSE"
+    "displayName": "Zinogre Color Theme",
+    "description": "Zinogre color theme for VS Code",
+    "contributes": {
+        "themes": [ {
+            "path": "./themes/zinogre-color-theme.json",
+            "label": "Zinogre",
+            "uiTheme": "vs-dark"
+        } ]
+    },
+    "galleryBanner": {
+        "color": "#2B3E50",
+        "theme": "dark"
+    }
 }
