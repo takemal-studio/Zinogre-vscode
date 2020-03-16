@@ -6,8 +6,7 @@ Zinogre color theme for [Visual Studio Code](https://code.visualstudio.com/).
 
 This repo contains VS Code theme file that make your VS Code editor Zinogre color theme.
 
-<img src="./img/zinogre.png" width="200">
-<img src="./img/colormap.png" width="220">
+<img src="./img/zinogre.png" width="200"> <img src="./img/colormap.png" width="220">
 
 ### Syntax highlighting in VS Code
 
