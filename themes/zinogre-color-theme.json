@@ -54,7 +54,7 @@
             "scope": "storage",
             "settings": {
                 "fontStyle": "italic",
-                "foreground": "#40dfcb"
+                "foreground": "#00F5FB"
             }
         },
         {
@@ -93,7 +93,7 @@
             "scope": "entity.name.function",
             "settings": {
                 "fontStyle": "italic",
-                "foreground": "#40dfcb"
+                "foreground": "#00F5FB"
             }
         },
         {
@@ -140,7 +140,7 @@
             "name": "Library function",
             "scope": "support.function",
             "settings": {
-                "foreground": "#40dfcb"
+                "foreground": "#00F5FB"
             }
         },
         {
@@ -160,7 +160,7 @@
             ],
             "settings": {
                 "fontStyle": "italic",
-                "foreground": "#40dfcb"
+                "foreground": "#00F5FB"
             }
         },
         {
@@ -168,7 +168,7 @@
             "scope": "support.other.variable",
             "settings": {
                 "fontStyle": " italic",
-                "foreground": "#40dfcb"
+                "foreground": "#00F5FB"
             }
         },
         {
@@ -204,7 +204,7 @@
             "name": "Tag name",
             "scope": "entity.name.tag",
             "settings": {
-                "foreground": "#40dfcb"
+                "foreground": "#00F5FB"
             }
         },
         {
@@ -246,7 +246,7 @@
             "name": "JS variable type",
             "scope": "support.class.builtin.js, entity.name.type.class.js",
             "settings": {
-                "foreground": "#40dfcb"
+                "foreground": "#00F5FB"
             }
         },
         {
@@ -281,7 +281,7 @@
             "name": "HTML id attribute",
             "scope": "entity.other.attribute-name.id.html",
             "settings": {
-                "foreground": "#40dfcb"
+                "foreground": "#00F5FB"
             }
         },
         {
@@ -309,14 +309,14 @@
             "name": "CSS Property Name",
             "scope": "support.type.property-name.css",
             "settings": {
-                "foreground": "#40dfcb"
+                "foreground": "#00F5FB"
             }
         },
         {
             "name": "CSS ID selector",
             "scope": "entity.other.attribute-name.id.css",
             "settings": {
-                "foreground": "#40dfcb"
+                "foreground": "#00F5FB"
             }
         },
         {
@@ -341,7 +341,7 @@
             "scope": "entity",
             "settings": {
                 "fontStyle": "italic",
-                "foreground": "#40dfcb"
+                "foreground": "#00F5FB"
             }
         },
         {
@@ -406,7 +406,7 @@
             "scope": "keyword.control",
             "settings": {
                 "fontStyle": " italic  ",
-                "foreground": "#40dfcb"
+                "foreground": "#00F5FB"
             }
         },
         {
@@ -448,7 +448,7 @@
             "name": "meta.function-call",
             "scope": "meta.function-call, meta.function",
             "settings": {
-                "foreground": "#40dfcb"
+                "foreground": "#00F5FB"
             }
         },
         {
@@ -467,7 +467,7 @@
         "editor.lineHighlightBackground": "#597694",
         "editor.selectionBackground": "#8a8a8a",
         "editorCursor.foreground": "#F8F8F2",
-        "editorIndentGuide.activeBackground": "#40dfcb",
+        "editorIndentGuide.activeBackground": "#00F5FB",
         "editorIndentGuide.background": "#9da9ee",
         "editorWhitespace.foreground": "#2B3E50"
     }
