@@ -2,7 +2,7 @@
     "name": "zinogre",
     "displayName": "Zinogre Color Theme",
     "description": "Zinogre color theme for VS Code",
-    "version": "0.1.2",
+    "version": "0.1.3",
     "engines": {
         "vscode": "^1.34.0"
     },
@@ -17,11 +17,13 @@
         "url": "https://github.com/takemal-studio/Zinogre-vscode/issues"
     },
     "contributes": {
-        "themes": [ {
-            "label": "Zinogre",
-            "uiTheme": "vs-dark",
-            "path": "./themes/zinogre-color-theme.json"
-        } ]
+        "themes": [
+            {
+                "label": "Zinogre",
+                "uiTheme": "vs-dark",
+                "path": "./themes/zinogre-color-theme.json"
+            }
+        ]
     },
     "galleryBanner": {
         "color": "#2B3E50",
