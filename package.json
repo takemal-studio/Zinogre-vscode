@@ -2,7 +2,7 @@
     "name": "zinogre",
     "displayName": "Zinogre Color Theme",
     "description": "Zinogre color theme for VS Code",
-    "version": "0.1.3",
+    "version": "0.0.0",
     "engines": {
         "vscode": "^1.34.0"
     },
