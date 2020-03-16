@@ -33,10 +33,12 @@
         "theme",
         "color-theme"
     ],
-    "icon": "./img/zinogre_icon.png",
+    "icon": "img/zinogre_icon.png",
     "publisher": "takemal-studio",
     "author": {
-        "name": "takemal-studio"
+        "name": "takemal-studio",
+        "email": "takemal.studio@gmail.com",
+        "url": "https://github.com/takemal-studio"
     },
     "license": "SEE LICENSE IN LICENSE"
 }
