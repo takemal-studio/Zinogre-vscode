@@ -17,16 +17,14 @@
         "url": "https://github.com/takemal-studio/Zinogre-vscode/issues"
     },
     "contributes": {
-        "themes": [
-            {
-                "label": "Zinogre",
-                "uiTheme": "vs-dark",
-                "path": "./themes/zinogre-color-theme.json"
-            }
-        ]
+        "themes": [ {
+            "label": "Zinogre",
+            "uiTheme": "vs-dark",
+            "path": "./themes/zinogre-color-theme.json"
+        } ]
     },
     "galleryBanner": {
-        "color": "#00F5FB",
+        "color": "#2B3E50",
         "theme": "dark"
     },
     "keywords": [
