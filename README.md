@@ -37,9 +37,9 @@ This repo contains VS Code theme file that make your VS Code editor Zinogre colo
 3. Type `Zinogre`
 4. Select it or press Enter to install
 
-### from [Visual Studio Code MarketPlace](https://marketplace.visualstudio.com/items?itemName=takemal-studio.zinogre)
+### from [Visual Studio MarketPlace](https://marketplace.visualstudio.com/items?itemName=takemal-studio.zinogre)
 
-### Activating theme
+## Activating theme
 
 - The Zinogre color theme will be available from `File` -> `Preferences` -> `Color Theme` dropdown menu.
 
