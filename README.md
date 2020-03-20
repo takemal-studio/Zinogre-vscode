@@ -26,10 +26,17 @@ This repo contains VS Code theme file that make your VS Code editor Zinogre colo
 
 ### Syntax highlighting in VS Code
 
-![sample_code](./img/sample_js.png)
-![sample_code](./img/sample_html.png)
-![sample_code](./img/sample_css.png)
+<div align="center">
+<img src="./img/sample_js.png" width="500" position = "center">
+</div>
 
+<div align="center">
+<img src="./img/sample_html.png" width="500" position = "center">
+</div>
+
+<div align="center">
+<img src="./img/sample_css.png" width="500" position = "center">
+</div>
 ## Installation
 
 ### using Command Palette
