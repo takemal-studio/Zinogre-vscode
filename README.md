@@ -17,11 +17,11 @@ This repo contains VS Code theme file that make your VS Code editor Zinogre colo
 
 <div align="center">
 
-<img src="./img/zinogre.png" width="500">\
+<img src="./img/zinogre.png" width="500">
 </div>
 
 <div align="center">
-<img src="./img/colormap.png" width="600" position = "center">
+<img src="./img/colormap.png" width="500" position = "center">
 </div>
 
 ### Syntax highlighting in VS Code
