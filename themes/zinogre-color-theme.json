@@ -843,8 +843,6 @@
                 "variable.parameter.js",
                 "constant.other.object.key.js",
                 "variable.other.readwrite.js",
-                "punctuation.definition.parameters.begin.js",
-                "punctuation.definition.parameters.end.js",
                 "meta.object-literal.key.js",
                 "meta.array.literal.js",
                 "meta.brace.round.js",
@@ -852,7 +850,7 @@
                 "meta.objectliteral.js"
             ],
             "settings": {
-                "foreground": "#E5F3E2"
+                "foreground": "#FFCC7B"
             }
         },
         {
@@ -908,7 +906,7 @@
                 "string.quoted.double.handlebars"
             ],
             "settings": {
-                "foreground": "#FFCC7B"
+                "foreground": "#FFEB35"
             }
         },
         {
@@ -994,7 +992,8 @@
                 "punctuation.separator",
                 "punctuation.terminator",
                 "punctuation.section.function.begin",
-                "punctuation.section.function.end"
+                "punctuation.section.function.end",
+                "punctuation.definition.list.begin.markdown"
             ],
             "settings": {
                 "fontStyle": "",
@@ -1019,16 +1018,19 @@
                 "markup.raw.restructuredtext"
             ],
             "settings": {
-                "foreground": "#50FA7B"
+                "foreground": "#FFEB35"
             }
         }, {
             "name": "Links (prose)",
             "scope": [
                 "markup.underline.link",
-                "markup.underline.link.image"
+                "markup.underline.link.image",
+                "markup.underline.link.image.markdown",
+                "markup.underline.link.markdown",
+                "meta.link.inline.markdown",
             ],
             "settings": {
-                "foreground": "#8BE9FD"
+                "foreground": "#FFCC7B"
             }
         },
         {
@@ -1092,8 +1094,7 @@
                 "markup.heading"
             ],
             "settings": {
-                "fontStyle": "bold",
-                "foreground": "#74ff58"
+                "foreground": "#00F5FB"
             }
         }, {
             "name": "Markup italic",
