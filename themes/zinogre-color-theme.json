@@ -29,7 +29,7 @@
         "editorSuggestWidget.border": "#A9A9A9",
         "editorSuggestWidget.foreground": "#E5F3E2",
         "editorSuggestWidget.highlightForeground": "#00F5FB",
-        "editorSuggestWidget.selectedBackground": "#000000",
+        "editorSuggestWidget.selectedBackground": "#0d264b",
         "editorWhitespace.foreground": "#2B3E50"
     },
     "name": "Zinogre",
