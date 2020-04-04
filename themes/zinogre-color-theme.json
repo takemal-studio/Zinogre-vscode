@@ -257,7 +257,8 @@
             "settings": {
                 "foreground": "#FFEB35"
             }
-        }, {
+        },
+        {
             "name": "Non-capture operators",
             "scope": [
                 "punctuation.definition.group.capture.regexp"
@@ -284,7 +285,8 @@
             "settings": {
                 "foreground": "#00F5FB"
             }
-        }, {
+        },
+        {
             "name": "JSDoc-style types",
             "scope": [
                 "comment.block.documentation entity.name.type"
@@ -293,7 +295,8 @@
                 "fontStyle": "italic",
                 "foreground": "#74ff58"
             }
-        }, {
+        },
+        {
             "name": "JSDoc-style type brackets",
             "scope": [
                 "comment.block.documentation entity.name.type punctuation.definition.bracket"
@@ -301,7 +304,8 @@
             "settings": {
                 "foreground": "#74ff58"
             }
-        }, {
+        },
+        {
             "name": "JSDoc-style comment parameters",
             "scope": [
                 "comment.block.documentation variable"
@@ -315,7 +319,7 @@
             "name": "Function name",
             "scope": [
                 "entity.name.function",
-                "entity.name.function",
+                "variable.function.r",
                 "meta.function-call.generic",
                 "meta.function-call.object",
                 "meta.function-call.php",
@@ -392,6 +396,7 @@
                 "meta.selectionset.graphql",
                 "variable.arguments.graphql",
                 "variable.other.php",
+                "entity.name.function.r"
             ],
             "settings": {
                 "fontStyle": "italic",
@@ -558,7 +563,8 @@
             "settings": {
                 "foreground": "#FFCC7B"
             }
-        }, {
+        },
+        {
             "name": "Capture groups",
             "scope": [
                 "punctuation.definition.group.regexp"
@@ -615,7 +621,8 @@
                 "fontStyle": "italic",
                 "foreground": "#FFCC7B"
             }
-        }, {
+        },
+        {
             "name": "Destructuring / aliasing variable name (RHS)",
             "scope": [
                 "meta.import variable.other.readwrite.alias",
@@ -634,7 +641,8 @@
             "settings": {
                 "foreground": "#74ff58"
             }
-        }, {
+        },
+        {
             "name": "Makefile prerequisite names",
             "scope": [
                 "meta.scope.prerequisites.makefile"
@@ -642,7 +650,8 @@
             "settings": {
                 "foreground": "#FFEB35"
             }
-        }, {
+        },
+        {
             "name": "SCSS attibute selector strings",
             "scope": [
                 "meta.attribute-selector.scss"
@@ -653,7 +662,11 @@
         },
         {
             "name": "Tag Value",
-            "scope": [ "meta.tag string -source -punctuation", "text source", "text meta.tag string -punctuation" ],
+            "scope": [
+                "meta.tag string -source -punctuation",
+                "text source",
+                "text meta.tag string -punctuation"
+            ],
             "settings": {
                 "foreground": "#82BAF2"
             }
@@ -679,7 +692,8 @@
             "settings": {
                 "foreground": "#E26674"
             }
-        }, {
+        },
+        {
             "name": "JS function",
             "scope": [
                 "entity.name.function.js",
@@ -829,7 +843,6 @@
                 "foreground": "#E5F3E2"
             }
         },
-
         {
             "name": "Built-in magic functions and constants",
             "scope": [
@@ -944,7 +957,9 @@
         },
         {
             "name": "CSS Hex Color",
-            "scope": [ "constant.other.color.rgb-value.hex.css" ],
+            "scope": [
+                "constant.other.color.rgb-value.hex.css"
+            ],
             "settings": {
                 "foreground": "#74ff58"
             }
@@ -1023,7 +1038,8 @@
             "settings": {
                 "foreground": "#FFEB35"
             }
-        }, {
+        },
+        {
             "name": "Links (prose)",
             "scope": [
                 "markup.underline.link",
@@ -1099,7 +1115,8 @@
             "settings": {
                 "foreground": "#00F5FB"
             }
-        }, {
+        },
+        {
             "name": "Markup italic",
             "scope": [
                 "markup.italic"
@@ -1302,7 +1319,8 @@
             "settings": {
                 "foreground": "#FFCC7B"
             }
-        }, {
+        },
+        {
             "name": "keyword.other.sql",
             "scope": [
                 "keyword.other.alias.sql",
@@ -1350,7 +1368,7 @@
         {
             "name": "meta.function-call.arguments",
             "scope": [
-                "meta.function-call.arguments"
+                "meta.function-call.arguments",
             ],
             "settings": {
                 "foreground": "#E5F3E2"
