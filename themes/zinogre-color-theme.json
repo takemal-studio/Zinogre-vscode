@@ -982,8 +982,7 @@
             "name": "Entity",
             "scope": "entity",
             "settings": {
-                "fontStyle": "italic",
-                "foreground": "#00F5FB"
+                "foreground": "#E5F3E2"
             }
         },
         {
