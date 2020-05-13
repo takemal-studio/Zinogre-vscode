@@ -782,6 +782,7 @@
             "scope": [
                 "entity.name.function.target.makefile",
                 "entity.name.section.toml",
+                "entity.name.section.markdown",
                 "variable.other.key.toml"
             ],
             "settings": {
@@ -1108,7 +1109,7 @@
         {
             "name": "Markup headings",
             "scope": [
-                "markup.heading"
+                "markup.heading",
             ],
             "settings": {
                 "foreground": "#00F5FB"
