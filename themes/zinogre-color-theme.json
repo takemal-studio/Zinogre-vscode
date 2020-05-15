@@ -1372,6 +1372,16 @@
             "settings": {
                 "foreground": "#E5F3E2"
             }
-        }
+        },
+        {
+            "name": "entity.namespace.r",
+            "scope": [
+                "entity.namespace.r"
+            ],
+            "settings": {
+                "foreground": "#00F5FB",
+                "fontStyle": "italic"
+            }
+            }
     ]
 }
