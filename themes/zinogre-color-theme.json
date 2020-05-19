@@ -318,8 +318,8 @@
         {
             "name": "Function name",
             "scope": [
-                "entity.name.function",
                 "variable.function.r",
+                "entity.name.function",
                 "meta.function-call.generic",
                 "meta.function-call.object",
                 "meta.function-call.php",
@@ -396,7 +396,6 @@
                 "meta.selectionset.graphql",
                 "variable.arguments.graphql",
                 "variable.other.php",
-                "entity.name.function.r"
             ],
             "settings": {
                 "fontStyle": "italic",
@@ -498,8 +497,8 @@
         {
             "name": "SCSS attribute selector brackets",
             "scope": [
-                "punctuation.definition.attribute-selector.end.bracket.square.scss",
-                "punctuation.definition.attribute-selector.begin.bracket.square.scss"
+                "punctuation.definition.attribute-selector.begin.bracket.square.scss",
+                "punctuation.definition.attribute-selector.end.bracket.square.scss"
             ],
             "settings": {
                 "foreground": "#E5F3E2"
@@ -833,11 +832,11 @@
                 "punctuation.separator.namespace",
                 "punctuation.separator.pointer-access",
                 "punctuation.separator.slice",
-                "string.unquoted.heredoc punctuation.definition.string",
-                "support.other.chomping-indicator.yaml",
                 "punctuation.separator.annotation",
                 "punctuation.section.parens.begin",
-                "punctuation.section.parens.end"
+                "punctuation.section.parens.end",
+                "support.other.chomping-indicator.yaml",
+                "string.unquoted.heredoc punctuation.definition.string",
             ],
             "settings": {
                 "foreground": "#E5F3E2"
@@ -856,14 +855,14 @@
         {
             "name": "JS variable parameter",
             "scope": [
-                "variable.parameter.js",
                 "constant.other.object.key.js",
-                "variable.other.readwrite.js",
                 "meta.object-literal.key.js",
                 "meta.array.literal.js",
                 "meta.brace.round.js",
+                "meta.objectliteral.js",
                 "punctuation.definition.block.js",
-                "meta.objectliteral.js"
+                "variable.parameter.js",
+                "variable.other.readwrite.js",
             ],
             "settings": {
                 "foreground": "#FFCC7B"
@@ -917,9 +916,9 @@
             "name": "HTML String",
             "scope": [
                 "string.quoted.double.html",
+                "string.quoted.double.handlebars",
                 "punctuation.definition.string.begin.html",
                 "punctuation.definition.string.end.html",
-                "string.quoted.double.handlebars"
             ],
             "settings": {
                 "foreground": "#FFEB35"
@@ -927,13 +926,6 @@
         },
         {
             "name": "CSS ID",
-            "scope": "entity.other.attribute-name.id.css",
-            "settings": {
-                "foreground": "#74ff58"
-            }
-        },
-        {
-            "name": "CSS ID selector",
             "scope": "entity.other.attribute-name.id.css",
             "settings": {
                 "foreground": "#74ff58"
@@ -968,7 +960,6 @@
             "name": "CSS Property Value",
             "scope": [
                 "meta.property-group",
-                "support.constant.property-value.css",
                 "meta.property-value",
                 "support.constant.property-value.css",
                 "meta.property-list.css",
@@ -983,6 +974,7 @@
             "name": "Entity",
             "scope": "entity",
             "settings": {
+                "fontStyle": "italic",
                 "foreground": "#E5F3E2"
             }
         },
@@ -1268,15 +1260,6 @@
             }
         },
         {
-            "name": "Generic selectors (CSS/SCSS/Less/Stylus)",
-            "scope": [
-                "meta.selector"
-            ],
-            "settings": {
-                "foreground": "#00F5FB"
-            }
-        },
-        {
             "name": "Keyword control",
             "scope": "keyword.control",
             "settings": {
@@ -1322,6 +1305,15 @@
         {
             "name": "keyword.other.sql",
             "scope": [
+                "keyword.other.sql",
+            ],
+            "settings": {
+                "foreground": "#74FF58"
+            }
+        },
+        {
+            "name": "keyword.other.sql",
+            "scope": [
                 "keyword.other.alias.sql",
                 "keyword.other.DML.sql",
                 "keyword.other.DDL.create.II.sql",
@@ -1329,15 +1321,6 @@
             ],
             "settings": {
                 "foreground": "#00F5FB"
-            }
-        },
-        {
-            "name": "keyword.other.sql",
-            "scope": [
-                "keyword.other.sql",
-            ],
-            "settings": {
-                "foreground": "#74FF58"
             }
         },
         {
@@ -1374,14 +1357,23 @@
             }
         },
         {
+            "name": "Generic selectors (CSS/SCSS/Less/Stylus)",
+            "scope": [
+                "meta.selector"
+            ],
+            "settings": {
+                "foreground": "#00F5FB"
+            }
+        },
+        {
             "name": "entity.namespace.r",
             "scope": [
                 "entity.namespace.r"
             ],
             "settings": {
-                "foreground": "#00F5FB",
-                "fontStyle": "italic"
+                "fontStyle": "italic",
+                "foreground": "#00F5FB"
             }
-            }
+        }
     ]
 }
