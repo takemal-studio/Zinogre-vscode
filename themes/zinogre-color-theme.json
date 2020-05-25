@@ -1308,18 +1308,6 @@
                 "keyword.other.sql",
             ],
             "settings": {
-                "foreground": "#00F5FB"
-            }
-        },
-        {
-            "name": "keyword.other.sql",
-            "scope": [
-                "keyword.other.alias.sql",
-                "keyword.other.DML.sql",
-                "keyword.other.DDL.create.II.sql",
-                "keyword.other.data-integrity.sql"
-            ],
-            "settings": {
                 "foreground": "#74FF58"
             }
         },
