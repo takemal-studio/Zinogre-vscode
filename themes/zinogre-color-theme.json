@@ -1306,6 +1306,7 @@
             "name": "keyword.other.sql",
             "scope": [
                 "keyword.other.sql",
+                "keyword.operator.star.sql"
             ],
             "settings": {
                 "foreground": "#74FF58"
