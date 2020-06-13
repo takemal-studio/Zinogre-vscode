@@ -59,7 +59,7 @@ This repo contains VS Code theme file that make your VS Code editor Zinogre colo
 
 The above sample codes' font is [JetBrains mono](https://www.jetbrains.com/lp/mono/).
 
-If You want, you can download and add it into system font folder.
+If you want, you can download and add it into system font folder.
 
 Then you can add this option in `setting.json` to have a custom font:
 
