@@ -69,12 +69,6 @@ Then you can add this option in `setting.json` to have a custom font:
 }
 ```
 
-### Recommended Extensions to use with Zinogre theme
-
-- [Bracket Pair Colorizer 2](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2)
-
-- [indent-rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow)
-
 ## Author
 
 takemal-studio
