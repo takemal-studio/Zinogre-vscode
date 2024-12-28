@@ -13,7 +13,7 @@ Zinogre color theme for [Visual Studio Code](https://code.visualstudio.com/).
 
 ## Feature & Image
 
-This repo contains VS Code theme file that make your VS Code editor Zinogre color theme.
+This repo contains color theme file for Visual Studio Code that make your Visual Studio Code editor Zinogre color theme.
 
 <div align="center">
 
@@ -24,7 +24,7 @@ This repo contains VS Code theme file that make your VS Code editor Zinogre colo
 <img src="./img/colormap.png" width="500" position = "center">
 </div>
 
-### Syntax highlighting in VS Code
+### Syntax highlighting in sample code
 
 <div align="center">
 <img src="./img/sample_js.png" width="500" position = "center">
@@ -40,34 +40,18 @@ This repo contains VS Code theme file that make your VS Code editor Zinogre colo
 
 ## Installation
 
-### using Command Palette
+### Using Command Palette
 
 1. Go to `View` -> `Command Palette` or press `Ctrl + Shift + P`
-2. Then enter `Install Extension`
-3. Type `Zinogre`
+2. Then enter `Extensions: Install Extensions`
+3. Type `Zinogre Color Theme`
 4. Select it or press Enter to install
 
-### from [Visual Studio MarketPlace](https://marketplace.visualstudio.com/items?itemName=takemal-studio.zinogre)
+### From [Visual Studio MarketPlace](https://marketplace.visualstudio.com/items?itemName=takemal-studio.zinogre)
 
 ## Activating theme
 
-- The Zinogre color theme will be available from `File` -> `Preferences` -> `Color Theme` dropdown menu.
-
-## Recommended Setting
-
-### Font
-
-The above sample codes' font is [JetBrains mono](https://www.jetbrains.com/lp/mono/).
-
-If you want, you can download and add it into system font folder.
-
-Then you can add this option in `setting.json` to have a custom font:
-
-```json
-{
-    "editor.fontFamily": "JetBrains Mono Regular",
-}
-```
+- The Zinogre color theme will be available from `File` -> `Preferences` ->  `Theme` -> `Color Theme` dropdown menu.
 
 ## Author
 
