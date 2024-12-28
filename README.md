@@ -13,7 +13,7 @@ Zinogre color theme for [Visual Studio Code](https://code.visualstudio.com/).
 
 ## Feature & Image
 
-This repo contains color theme file for Visual Studio Code that make your Visual Studio Code editor Zinogre color theme.
+This repo contains color theme file for Visual Studio Code that make your editor Zinogre color theme.
 
 <div align="center">
 
